@@ -14,6 +14,8 @@ let newton = celsius * (33 / 100);
 // Arredonda o valor de Newton para o número inteiro mais próximo
 newton = Math.floor(newton);
 
-// Exibe os resultados no console
+// Exibe os resultados no console:
+console.log(`The temperature is ${kelvin} degrees Kelvin.`);
+console.log(`The temperature is ${celsius} degrees Celsius.`);
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 console.log(`The temperature is ${newton} degrees Newton.`);
